@@ -14,6 +14,14 @@ const OutfitSchema = new Schema({
     type: String,
     required: true
   },
+  bodyType: {
+    type: String,
+    required: true
+  },
+  clan: {
+    type: String,
+    required: true
+  },
   date: {
     type: Date,
     default: Date.now
